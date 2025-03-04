@@ -18,12 +18,12 @@ Project Description:
    
 4. Gradle
    >//retrofit
-   > implementation(libs.retrofit)
-   > implementation(libs.retrofit.converter.gson)
+   >implementation(libs.retrofit)
+   >implementation(libs.retrofit.converter.gson)
    >
-   > //viewModel
-   > implementation(libs.androidx.viewmodel.compose)
-   > implementation(libs.androidx.navigation.compose)
+   >//viewModel
+   >implementation(libs.androidx.viewmodel.compose)
+   >implementation(libs.androidx.navigation.compose)
    
 6. AndroidManifest <uses-permission android:name="android.permission.INTERNET"/>
 7. API URL: https://weatherstack.com/ 
