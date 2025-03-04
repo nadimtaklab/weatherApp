@@ -1,9 +1,9 @@
 package com.arbeat.weatherapp
 
 data class WeatherResponse(
-    val request: List<Request>,
-    val location: List<Location>,
-    val current: List<Current>,
+    val request: Request,
+    val location:Location,
+    val current: Current,
 )
 
 data class Request(
