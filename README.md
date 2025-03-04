@@ -17,5 +17,13 @@ Project Description:
    > androidx-navigation-compose = { group = "androidx.navigation", name = "navigation-compose", version.ref = "navigationCompose" }
    
 4. Gradle
-5. AndroidManifest <uses-permission android:name="android.permission.INTERNET"/>
-6. API URL: https://weatherstack.com/ 
+   >//retrofit
+   > implementation(libs.retrofit)
+   > implementation(libs.retrofit.converter.gson)
+   >
+   > //viewModel
+   > implementation(libs.androidx.viewmodel.compose)
+   > implementation(libs.androidx.navigation.compose)
+   
+6. AndroidManifest <uses-permission android:name="android.permission.INTERNET"/>
+7. API URL: https://weatherstack.com/ 
