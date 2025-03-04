@@ -5,10 +5,10 @@ Project Description:
 3. WeatherViewModel
 4. MainActivity.kt
 
-5. - Prerequisites
+- Prerequisites
 1. Color.kt
 2. Drawable Images
 3. Gradle
 4. AndroidManifest
 
-5. API URL: https://weatherstack.com/ 
+- API URL: https://weatherstack.com/ 
